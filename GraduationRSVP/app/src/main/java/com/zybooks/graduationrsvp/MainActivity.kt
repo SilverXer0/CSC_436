@@ -75,12 +75,14 @@ fun GradScreen(modifier: Modifier = Modifier) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Icon(
                 imageVector = Icons.Filled.Info,
-                contentDescription = "Information",
+                contentDescription = stringResource(R.string.information),
                 tint = Color.Gray,
-                modifier = Modifier.padding(10.dp).size(40.dp)
+                modifier = Modifier
+                    .padding(10.dp)
+                    .size(40.dp)
             )
             Text(
-                text = "May 14 - Ganus Hall - 2:00 pm",
+                text = stringResource(R.string.may_14_ganus_hall_2_00_pm),
                 fontSize = 20.sp
             )
         }
