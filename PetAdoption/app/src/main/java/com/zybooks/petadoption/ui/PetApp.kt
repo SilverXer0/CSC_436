@@ -101,7 +101,6 @@ fun PetAppBar(
    )
 }
 
-
 @Composable
 fun ListScreen(
    petList: List<Pet>,
@@ -267,3 +266,4 @@ fun PreviewAdoptScreen() {
       AdoptScreen(pet)
    }
 }
+
